@@ -136,7 +136,6 @@
 					var left = _.ul.data("left");
 					if (Math.abs(left) > 30){
 						var i = left > 0 ? _.i-1 : _.i+1;
-						if (i < 0 || i >= len) i = _.i;
 						_.to(i);
 					}else{
 						_.to(_.i);
